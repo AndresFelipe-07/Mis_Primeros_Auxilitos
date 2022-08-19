@@ -11,31 +11,36 @@
 </head>
 <body>
 
-    <h1>MIS PRIMEROS AUXILITOS</h1>
+    <h1 id="titulo-Auxilitos">MIS PRIMEROS AUXILITOS</h1>
     
-    <h1 id="titulo">Login</h1>
+    
 
     <content class="content_login">
 
         <div class="logueo">
+            <h1 id="titulo">Login</h1>
+            <form action="" method="POST" id="form">
 
-            <input type="text" id="correo" placeholder="Correo">
-            <br>
-            <br>
-            <input type="password" id="contrasena" placeholder="Contraseña"></input>
-            <br>
-            <br>
-            <button id="btn_loguearse" onclick="location.href='index.html'">ACEPTAR</button>
-            <br>
-            <br>
-            <br>
-            <text>¿No tienes cuenta?</text>
-            <button id="btn_loguearse" onclick="location.href='registro.html'">registrarse</button>
-            <br>
-            <br>
-            <br>
-            <img src="/Images/Facebook.svg" onclick="location.href='index.html'">
-            <img src="/Images/Google.svg" onclick="location.href='index.html'">
+                <div class="grupo">
+                    <input type="email" id="correo" placeholder="Correo" required>
+                </div>
+                <div class="grupo">
+                    <input type="password" id="contrasena" placeholder="Contraseña" required></input>
+                </div>              
+                <div class="grupo">
+                    <button id="btn_loguearse" onclick="location.href='index.html'">ACEPTAR</button>
+                </div>
+                <div class="grupo">
+                    <text>¿No tienes cuenta?</text>
+                    <button id="btn_loguearse" onclick="location.href='registro.html'">registrarse</button>    
+                </div>
+                
+                <div class="grupo">
+                    <img id="img-btn-Facebook" src="/Images/Facebook.svg" onclick="location.href='index.html'">
+                    <img id="img-btn-Google" src="/Images/Google.svg" onclick="location.href='index.html'">
+                </div>
+
+            </form>
 
         </div>
 
