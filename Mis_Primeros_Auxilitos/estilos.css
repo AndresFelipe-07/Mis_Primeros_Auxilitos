@@ -1,0 +1,57 @@
+/*
+id == #
+class == .
+*/
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;700&display=swap');
+
+
+body{
+
+    margin: 0%;
+    background-color:green;
+    font-family: 'DynaPuff', cursive;
+
+}
+
+#titulo{
+
+    text-align:center;
+    background-color:yellow;
+    border-radius:50px;
+    color:blue;
+    text-shadow:1px 3px 2px;
+
+}
+
+
+
+.nav{
+
+    float:left;
+
+}
+
+
+
+#derecha{
+
+    float:left;
+    margin:10px;
+    list-style:none;
+    text-decoration:none;
+    color:white;
+    background-color:red;
+    border-radius:10px;
+
+}
+
+#opciones-encabezado{
+
+    color:white;
+    text-decoration:none;
+
+}
+
+
+
+
