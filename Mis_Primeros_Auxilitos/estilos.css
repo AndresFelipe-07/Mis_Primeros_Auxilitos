@@ -4,25 +4,27 @@ class == .
 */
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;700&display=swap');
 
+/*Inicio Index*/
 
 .body-index{
 
     margin: 0%;
+    padding:0;
     font-family: 'DynaPuff', cursive;
-    background: linear-gradient(to top, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
 
 #titulo{
 
-    text-align:center;
+    margin: 0 auto;
+    padding: 0;
+    text-align:absolute;
     background-color:yellow;
     border-radius:50px;
     color:blue;
-    text-shadow:1px 3px 2px;
+    text-shadow:1px 3px 3px;
     
 
 }
@@ -31,7 +33,7 @@ class == .
 
 .nav{
 
-    float:left;
+   background:red;
 
 }
 
@@ -55,6 +57,12 @@ class == .
     text-decoration:none;
 
 }
+
+/*Parte de videos e imagenes*/
+
+
+
+
 
 
 /*Scroll-bar*/
@@ -215,7 +223,7 @@ input:focus~.barra::before{
     display: block;
     width: 80%;
     margin:10px auto;
-    color:white;
+    color:black;
     height: 40px;
     font-size: 16px;
     cursor:pointer;
@@ -232,7 +240,7 @@ input:focus~.barra::before{
     display: block;
     width: 60%;
     margin:10px auto;
-    color:white;
+    color:black;
     height: 40px;
     font-size: 16px;
     cursor:pointer;

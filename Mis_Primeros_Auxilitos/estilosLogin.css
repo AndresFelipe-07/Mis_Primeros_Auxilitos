@@ -23,13 +23,16 @@
     border-radius:2em;
 }
 
-body{
+.body_Login{
 
     font-family:'DynaPuff', cursive;
     background: #f12711;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0ebcf1, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0ebcf1, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    text-align: center;
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content_login{
@@ -39,38 +42,54 @@ body{
 #titulo-Auxilitos{
     color:rgb(89, 255, 47);
     font-size:3em;
+    text-align: center;
+    text-shadow: 3px 5px 5px black;
+    margin: 5px;
 }
 
 #titulo{
 
-    margin-top: 5%;
+    margin-top: 0.1em;
     margin-bottom: 1em;
+    text-align: center;
+    font-size:3em;
 
 }
 
 
-.logueo{
+form .grupo{
+    position: relative;
+    margin:45px;
+    display: block;
+    
+}
 
+form{
+
+    padding:40px 0;
+    box-shadow: 0 0 6px 0 #334d50;
     margin-top: 2em;
     background: #40E0D0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius:10px;
     color: aliceblue;
-   
-    
 }
 
+.form{
 
-form .grupo{
-    margin-bottom:30px;
-    display: block;
-    
+    width: 100%;
+    margin: auto;
+
 }
+
 
 .grupo{
     margin: auto;
+    text-align: center;
 }
+
+
 
 #correo{
 
@@ -106,17 +125,32 @@ form .grupo{
 
 }
 
+#btn_registrarse{
+
+    font-family:'DynaPuff', cursive;
+    border-radius:10px;
+    background-color: green;
+    color: aliceblue;
+    font-size:20px;
+    cursor: pointer;
+
+}
+
 #img-btn-Facebook{
     cursor: pointer;
+    
+    
 }
 #img-btn-Google{ 
     cursor:pointer;
+    
 }
 
 .footer { 
 
     position:relative bottom;
-    margin-top: 10%;
+    margin-top: 5%;
+    text-align: center;
 
 }
 

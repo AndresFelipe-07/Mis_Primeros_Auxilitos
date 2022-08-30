@@ -7,20 +7,19 @@
     <title>Login</title>
     <link rel="stylesheet" href="estilosLogin.css">
     <script type="javaScript.js"></script>
+    
 
 </head>
-<body>
+<body class="body_Login">
 
-    <h1 id="titulo-Auxilitos">MIS PRIMEROS AUXILITOS</h1>
     
     
 
     <content class="content_login">
-
-        <div class="logueo">
-            <h1 id="titulo">Login</h1>
-            <form action="" method="POST" id="form">
-
+        <h1 id="titulo-Auxilitos"><img src="/Images/botiquin.png" height="50px" width="50px"> MIS PRIMEROS AUXILITOS <img src="/Images/botiquin.png" height="50px" width="50px"></h1>
+            
+            <form action="" method="POST" class="form">
+                <h1 id="titulo">Login</h1>
                 <div class="grupo">
                     <input type="email" id="correo" placeholder="Correo" required>
                 </div>
@@ -28,11 +27,12 @@
                     <input type="password" id="contrasena" placeholder="Contraseña" required></input>
                 </div>              
                 <div class="grupo">
-                    <button id="btn_loguearse" onclick="location.href='index.html'">ACEPTAR</button>
+                    <button id="btn_loguearse" class="submit" onclick="location.href='index.html'">ACEPTAR</button>
                 </div>
                 <div class="grupo">
                     <text>¿No tienes cuenta?</text>
-                    <button id="btn_loguearse" onclick="location.href='registro.html'">registrarse</button>    
+                    <button id="btn_registrarse" onclick="location.href='registro.html'">registrarse</button>
+                       
                 </div>
                 
                 <div class="grupo">
@@ -40,18 +40,20 @@
                     <img id="img-btn-Google" src="/Images/Google.svg" onclick="location.href='index.html'">
                 </div>
 
+                <footer class="footer">
+
+                    copyright &copy SENIORS_SENA;
+            
+                </footer>
+
             </form>
 
-        </div>
-
+        
+            
 
     </content>
 
-    <footer class="footer">
-
-        copyright &copy SENIORS_SENA;
-
-    </footer>
+    
 
 </body>
 </html>
