@@ -145,6 +145,28 @@ form{
 
     width:100%;
     margin:auto;
+    position:relative;
+    animation-name:mianimacion;
+    animation-duration:3s;
+    
+
+}
+
+@keyframes mianimacion {
+
+    0%{
+        top:0px;
+    }
+    
+    25%{ 
+        top:-50px;   
+    }
+    50%{
+        top:-50px;      
+    }
+    100%{ 
+        top:0px;   
+    }
 
 }
 

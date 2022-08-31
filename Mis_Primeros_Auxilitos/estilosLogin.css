@@ -37,7 +37,32 @@
 
 .content_login{
     margin:0 auto;
+    animation-name: mianimacion;
+    animation-duration:2s;
+    position:relative;
+  
+
 }
+
+/*Animacion*/
+@keyframes mianimacion{
+
+    0%{
+        top:0px;
+    }
+    
+    25%{ 
+        top:-50px;   
+    }
+    50%{
+        top:-50px;      
+    }
+    100%{ 
+        top:0px;   
+    }
+    
+}
+
 
 #titulo-Auxilitos{
     color:rgb(89, 255, 47);
@@ -45,6 +70,13 @@
     text-align: center;
     text-shadow: 3px 5px 5px black;
     margin: 5px;
+}
+
+/*Imagen Botiquin*/
+#image_Title{
+
+    border-radius: 10px;
+
 }
 
 #titulo{
