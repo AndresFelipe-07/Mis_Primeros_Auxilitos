@@ -128,18 +128,29 @@ form{
     font-family:'DynaPuff', cursive;
     border-radius:10px;
     font-size:20px;
-    background-color:rgb(38, 0, 255);
+    background-color:rgb(0, 174, 255);
     color: white;
     margin: auto;
     
 
 }
+
+:root{
+
+    --colorTextoPlaceholder:rgb(0, 0, 0);
+
+}
+
+::placeholder {
+    color:var(--colorTextoPlaceholder); 
+}
+
 #contrasena{
 
     font-family:'DynaPuff', cursive;
     border-radius:10px;
     color: rgb(0, 0, 0);
-    background-color:yellow;
+    background-color:rgb(255, 255, 0);
     font-size:20px;
     margin:auto;
     
@@ -176,6 +187,20 @@ form{
 #img-btn-Google{ 
     cursor:pointer;
     
+}
+
+.content_password_Olvida{
+
+    top: 0;
+    text-align: center;   
+
+}
+
+#text_password{
+
+    /*text-decoration: none;*/
+    color:black;
+
 }
 
 .footer { 

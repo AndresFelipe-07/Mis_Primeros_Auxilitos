@@ -4,6 +4,16 @@ class == .
 */
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;700&display=swap');
 
+:root{
+    --colorTextoPlaceholder:rgb(255, 123, 0);
+}
+
+/*Placeholder*/
+::placeholder{
+    color:var(--colorTextoPlaceholder);
+}
+
+
 /*Inicio Index*/
 
 .body-index{
@@ -179,7 +189,7 @@ form .grupo{
 input{
 
     background:none;
-    color:#c6c6c6;
+    color:var(--colorTextoPlaceholder);
     font-size:18px;
     padding:10px 10px 10px 5px;
     display:block;
@@ -192,7 +202,7 @@ input{
 
 input:focus{
     outline:none;
-    color:#5e5d5d;
+    color:var(--colorTextoPlaceholder);
 }
 
 label{ 
@@ -277,3 +287,52 @@ input:focus~.barra::before{
 }
 
 /*FIN REGISTRO*/
+
+
+/*INICIO RECUPERAR CONTRASEÑA*/
+
+.body_recuperar_contrasena{
+
+    background-color:red;
+    font-family: 'DynaPuff', cursive;
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00ff55, #ce7f19, #c0c315);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00ff55, #ce7f19, #c0c315); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 600px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    
+
+}
+
+#correo_Recuperar_contrasena{
+    color:var(--colorTextoPlaceholder);
+}
+
+#btn_recibirCodigo{
+
+    font-family: 'DynaPuff', cursive;
+    border-radius: 10px;
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00ff55, #ce7f19, #c0c315);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00ff55, #ce7f19, #c0c315); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:black;
+
+}
+
+
+.form_recuperar_contrasena{
+
+    width:100%;
+    margin:auto;
+    position:relative;
+    animation-name:mianimacion;
+    animation-duration:3s;
+    
+
+}
+
+
+/*FIN RECUPERAR CONTRASEÑA*/
