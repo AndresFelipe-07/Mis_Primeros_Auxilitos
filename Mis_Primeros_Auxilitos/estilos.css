@@ -180,9 +180,10 @@ form{
 
 }
 
+/*Espaciado entre inputs y botones*/
 form .grupo{
     position:relative;
-    margin:45px;
+    margin:25px;
     /*background:black;*/
 }
 
@@ -334,5 +335,15 @@ input:focus~.barra::before{
 
 }
 
+#btn_regresarALogin{
+
+    font-family: 'DynaPuff', cursive;
+    border-radius: 10px;
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00ff55, #ce7f19, #c0c315);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00ff55, #ce7f19, #c0c315); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:black;
+
+}
 
 /*FIN RECUPERAR CONTRASEÑA*/
