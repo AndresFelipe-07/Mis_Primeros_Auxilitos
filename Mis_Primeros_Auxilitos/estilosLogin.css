@@ -33,6 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .content_login{
@@ -40,6 +41,7 @@
     animation-name: mianimacion;
     animation-duration:2s;
     position:relative;
+    
   
 
 }
@@ -91,7 +93,7 @@
 
 form .grupo{
     position: relative;
-    margin:45px;
+    margin:30px;
     display: block;
     
 }
