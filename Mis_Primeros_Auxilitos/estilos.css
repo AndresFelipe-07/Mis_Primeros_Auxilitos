@@ -84,22 +84,27 @@ class == .
     bottom: 0;
     position: fixed;
     margin: 0 auto;
+    text-align: center;
+    display:flex;
+    justify-content:center;
     
   }
 
-.hijos-navbar1{
-    margin-left:6%;
+.hijos-navbar{
+   
+    margin:0px auto;
+    
 }
- 
+
   
   /* Navigation links */
   .navbar img {
     float:left;
-    display:block;
-    width: 18%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    display: block;
     text-align: center; /* If you want the text to be centered */
     padding:2%;
     border-radius:10px;
+    width: 50px;
     
   }
   
@@ -110,10 +115,24 @@ class == .
   
   /* Style the current/active link */
   .navbar img.active {
-    background-color: #04AA6D;
+    background-color: #11ffa8;
   }
   
-  
+.opciones {
+    overflow:hidden;
+    text-align: center;
+    margin:auto;
+    background:red;
+}
+
+.opcion {
+    display:inline-table;
+    border:10px solid #ccc;
+    padding:15px;
+    height:100px;
+    width:100px;
+    margin:3px;
+}
   
   
 
