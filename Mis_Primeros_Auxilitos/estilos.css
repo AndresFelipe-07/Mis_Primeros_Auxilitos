@@ -16,13 +16,17 @@ class == .
 
 /*Inicio Index*/
 
+
+
 .body-index{
 
     margin: 0%;
     padding:0;
     font-family: 'DynaPuff', cursive;
     background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
+/*
 
 
 
@@ -67,6 +71,52 @@ class == .
     text-decoration:none;
 
 }
+*/
+
+/* Place the navbar at the bottom of the page, and make it stick */
+
+
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    bottom: 0;
+    position: fixed;
+    margin: 0 auto;
+    
+  }
+
+.hijos-navbar1{
+    margin-left:6%;
+}
+ 
+  
+  /* Navigation links */
+  .navbar img {
+    float:left;
+    display:block;
+    width: 18%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+    padding:2%;
+    border-radius:10px;
+    
+  }
+  
+  /* Add a background color on mouse-over */
+  .navbar img:hover {
+    background-color: rgb(28, 230, 55);
+  }
+  
+  /* Style the current/active link */
+  .navbar img.active {
+    background-color: #04AA6D;
+  }
+  
+  
+  
+  
+
 
 /*Parte de videos e imagenes*/
 
