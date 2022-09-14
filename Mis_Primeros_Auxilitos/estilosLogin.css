@@ -182,15 +182,27 @@ form{
     cursor: pointer;
 
 }
+.form button:hover{
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;  
+}
 
-#img-btn-Facebook{
+
+.img-btn-Facebook{
     cursor: pointer;
     
     
 }
-#img-btn-Google{ 
-    cursor:pointer;
-    
+.img-btn-Google{ 
+    cursor:pointer; 
+}
+
+
+.form img:hover{
+    box-shadow: inset 7px 7px 30px 7px rgba(184, 209, 219, 0.5), 0 0 20px rgba(162, 197, 211, 0.4);
+    border-radius:2em;
 }
 
 .content_password_Olvida{

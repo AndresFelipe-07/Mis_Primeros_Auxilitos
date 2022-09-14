@@ -456,6 +456,14 @@ input:focus~.barra::before{
 
 }
 
+form div button:hover {
+
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 100px;
+    text-shadow: 1px 1px 6px rgb(217, 255, 0); 
+
+}
 
 @media screen and (max-width:500px){
     form{
@@ -523,3 +531,61 @@ input:focus~.barra::before{
 }
 
 /*FIN RECUPERAR CONTRASEÑA*/
+
+/*INICIO RETOS*/
+
+.container-padre{
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;  
+
+}
+
+.container-trivias{
+
+    width: 50%;
+
+}
+
+#title-trivia{
+
+}
+
+#btn-create-trivia{
+
+    font-family:'DynaPuff', cursive;
+    border-radius:10px;
+    background-color: rgb(216, 203, 28);
+    color: aliceblue;
+    font-size:20px;
+    cursor: pointer;
+
+}
+
+.container-adivinar{
+
+    width: 50%;
+
+}
+
+#btn-create-adivinanza{
+
+    font-family:'DynaPuff', cursive;
+    border-radius:10px;
+    background-color: rgb(17, 171, 243);
+    color: aliceblue;
+    font-size:20px;
+    cursor: pointer;
+}
+
+.container-padre button:hover {
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+    
+}
+
+/*FIN RETOS*/
