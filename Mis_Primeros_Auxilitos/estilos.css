@@ -77,11 +77,15 @@ class == .
 .div-padre{
 
     display: flex;
-    position: relative;
+    position: fixed;
+    width: 100%;
     background-color:rgb(255, 146, 4);
     border-radius:10px;
     animation-name:animacionDivTitle;
     animation-duration:2s;
+    height:5em;
+    top: 0;
+
 
 }
 
@@ -108,9 +112,10 @@ class == .
 {
 
     color:rgb(89, 255, 47);
-    font-size:2em;
+    font-size:1.7em;
     text-shadow: 3px 5px 5px black;
-       
+    text-align:center;
+
 
 }
 
@@ -130,42 +135,47 @@ class == .
 
 }
 
-@media screen and (max-width:500px){
+@media screen and (min-width:500px){
     .div-padre{
         width: 100%;
         height: 5em;
     }
     #Title-index{
-        font-size:1.5em;
+        font-size:2em;
     }
 
 }
 
-.opciones {
-    border:4px solid rgb(217, 255, 0);
-    display:flex;
-    justify-content:center;
-    margin:5em;
-    margin-top: 2em;
-    border-radius:10px;
-}
 
-.opcion {
 
-    background:rgb(77, 195, 48);
+/*Invento con Youtube*/
+
+.gallery{
+    
+    width: 90%;
+    padding: 7% 0;
     margin:0 auto;
-    height: 18em;
-    width: 18em;
-    text-align:center;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
     border-radius: 10px;
-    border: 1px solid black;
-
+    
 }
 
+.gallery_img{
+    min-width: 200px;
+    flex:10em;
+    border-radius:10px;
+    height: 300px;
+    width: 300px;
+    margin-top: 2.5em;
+    
+}
 
 
 /* Style the navigation menu */
-.navbar {
+.navbar1 {
     width: 100%;
     background-color: #555;
     bottom: 0;
@@ -208,7 +218,7 @@ class == .
 
   
   /* Navigation links */
-  .navbar img {
+  .navbar1 img {
     float:left;
     display: block;
     text-align: center; /* If you want the text to be centered */
@@ -220,12 +230,12 @@ class == .
   }
   
   /* Add a background color on mouse-over */
-  .navbar img:hover {
+  .navbar1 img:hover {
     background-color: rgb(28, 230, 55);
   }
   
   /* Style the current/active link */
-  .navbar img.active {
+  .navbar1 img.active {
     background-color: #11ffa8;
   }
   
