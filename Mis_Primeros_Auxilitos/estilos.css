@@ -132,6 +132,8 @@ class == .
     top:0;
     right:0;
     cursor: pointer;
+    /*background-image: url(../Images/profile/profile.png);*/
+    
 
 }
 
@@ -539,7 +541,8 @@ form div button:hover {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0 auto;  
+    margin: 0 auto;
+    margin-top:5em;
 
 }
 
@@ -550,7 +553,7 @@ form div button:hover {
 }
 
 #title-trivia{
-
+    user-select:none;
 }
 
 #btn-create-trivia{
@@ -561,6 +564,7 @@ form div button:hover {
     color: aliceblue;
     font-size:20px;
     cursor: pointer;
+    
 
 }
 
@@ -568,6 +572,10 @@ form div button:hover {
 
     width: 50%;
 
+}
+
+#title-adivinar{
+    user-select: none;
 }
 
 #btn-create-adivinanza{
