@@ -43,6 +43,9 @@
     animation-name: mianimacion;
     animation-duration:2s;
     position:relative;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none
     
   
 
